@@ -22,7 +22,7 @@
 // "Rsa" is very short and not all the Common Client Libraries have namespaces.)
 
 /** @ignore */
-var constants = require('constants'); /** @ignore */
+var constants = require('react-native-browser-builtins').constants; /** @ignore */
 var Crypto = require('../../crypto.js'); /** @ignore */
 var Blob = require('../../util/blob.js').Blob; /** @ignore */
 var DecryptKey = require('../decrypt-key.js').DecryptKey; /** @ignore */
@@ -36,7 +36,7 @@ var SyncPromise = require('../../util/sync-promise.js').SyncPromise; /** @ignore
 var rsaKeygen = null;
 try {
   // This should be installed with: sudo npm install rsa-keygen
-  rsaKeygen = require('rsa-keygen');
+  // rsaKeygen = require('rsa-keygen');
 }
 catch (e) {}
 

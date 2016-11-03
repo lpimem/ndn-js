@@ -26,7 +26,7 @@ var KeyLocator = require('../../key-locator.js').KeyLocator; /** @ignore */
 var SecurityException = require('../security-exception.js').SecurityException; /** @ignore */
 var IdentityCertificate = require('../certificate/identity-certificate.js').IdentityCertificate; /** @ignore */
 var IdentityStorage = require('./identity-storage.js').IdentityStorage; /** @ignore */
-var path = require('path');
+var path = require('react-native-browser-builtins').path;
 
 /**
  * BasicIdentityStorage extends IdentityStorage to implement basic storage of

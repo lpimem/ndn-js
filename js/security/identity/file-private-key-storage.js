@@ -35,12 +35,12 @@ var util = require('util');
 // Use capitalized Crypto to not clash with the browser's crypto.subtle.
 /** @ignore */
 var Crypto = require('../../crypto.js'); /** @ignore */
-var fs = require('fs'); /** @ignore */
-var path = require('path'); /** @ignore */
+var fs = require("react-native-fs"); /** @ignore */
+var path = require('react-native-browser-builtins').path; /** @ignore */
 var rsaKeygen = null;
 try {
   // This should be installed with: sudo npm install rsa-keygen
-  rsaKeygen = require('rsa-keygen');
+  // rsaKeygen = require('rsa-keygen');
 }
 catch (e) {}
 

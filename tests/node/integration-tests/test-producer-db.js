@@ -21,7 +21,7 @@
  */
 
 var assert = require("assert");
-var fs = require("fs");
+var fs = require("react-native-fs");
 var Blob = require('../../..').Blob;
 var AesKeyParams = require('../../..').AesKeyParams;
 var AesAlgorithm = require('../../..').AesAlgorithm;

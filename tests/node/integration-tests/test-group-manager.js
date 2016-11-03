@@ -21,7 +21,7 @@
  */
 
 var assert = require("assert");
-var fs = require("fs");
+var fs = require("react-native-fs");
 var RepetitiveInterval = require('../../..').RepetitiveInterval;
 var Schedule = require('../../..').Schedule;
 var GroupManager = require('../../..').GroupManager;

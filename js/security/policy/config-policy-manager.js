@@ -20,8 +20,8 @@
  */
 
 /** @ignore */
-var fs = require('fs'); /** @ignore */
-var path = require('path'); /** @ignore */
+var fs = require("react-native-fs"); /** @ignore */
+var path = require('react-native-browser-builtins').path; /** @ignore */
 var Name = require('../../name.js').Name; /** @ignore */
 var Data = require('../../data.js').Data; /** @ignore */
 var Interest = require('../../interest.js').Interest; /** @ignore */

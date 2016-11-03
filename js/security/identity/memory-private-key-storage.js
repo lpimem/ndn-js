@@ -36,7 +36,7 @@ var UseSubtleCrypto = require('../../use-subtle-crypto-node.js').UseSubtleCrypto
 var rsaKeygen = null;
 try {
   // This should be installed with: sudo npm install rsa-keygen
-  rsaKeygen = require('rsa-keygen');
+  // rsaKeygen = require('rsa-keygen');
 }
 catch (e) {}
 

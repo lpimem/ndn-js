@@ -19,7 +19,7 @@
  */
 
 /** @ignore */
-var fs = require('fs');
+var fs = require("react-native-fs");
 
 /**
  * BoostInfoTree is provided for compatibility with the Boost INFO property list

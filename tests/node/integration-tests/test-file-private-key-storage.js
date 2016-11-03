@@ -19,8 +19,8 @@
  */
 
 var assert = require('assert');
-var fs = require('fs');
-var path = require('path');
+var fs = require("react-native-fs");
+var path = require('react-native-browser-builtins').path;
 var Name = require('../../..').Name;
 var KeyClass = require('../../..').KeyClass;
 var RsaKeyParams = require('../../..').RsaKeyParams;

@@ -163,7 +163,7 @@ TcpTransport.prototype.connect = function
 
   this.elementReader = new ElementReader(elementListener);
 
-  var net = require('net');
+  var net = require("react-native-tcp");
   this.socket = new net.Socket();
 
   var self = this;

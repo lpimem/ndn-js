@@ -115,7 +115,7 @@ UnixTransport.prototype.connect = function
 
   this.elementReader = new ElementReader(elementListener);
 
-  var net = require('net');
+  var net = require("react-native-tcp");
   this.socket = new net.createConnection(connectionInfo.filePath);
 
   var thisTransport = this;

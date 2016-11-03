@@ -19,7 +19,7 @@
  */
 
 var WebSocketServer = require('ws').Server;
-var net = require('net');
+var net = require("react-native-tcp");
 
 var opt = require('node-getopt').create([
   ['c' , 'ndnd=ARG', 'host name or ip of ndnd router'],

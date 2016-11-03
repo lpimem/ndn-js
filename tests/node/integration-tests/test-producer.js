@@ -21,7 +21,7 @@
  */
 
 var assert = require("assert");
-var fs = require("fs");
+var fs = require("react-native-fs");
 var Name = require('../../..').Name;
 var Data = require('../../..').Data;
 var Blob = require('../../..').Blob;

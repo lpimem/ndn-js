@@ -42,7 +42,7 @@ var LpPacket = require('./lp/lp-packet.js').LpPacket; /** @ignore */
 var InterestFilterTable = require('./impl/interest-filter-table.js').InterestFilterTable; /** @ignore */
 var PendingInterestTable = require('./impl/pending-interest-table.js').PendingInterestTable; /** @ignore */
 var RegisteredPrefixTable = require('./impl/registered-prefix-table.js').RegisteredPrefixTable; /** @ignore */
-var fs = require('fs'); /** @ignore */
+var fs = require("react-native-fs"); /** @ignore */
 var LOG = require('./log.js').Log.LOG;
 
 /**

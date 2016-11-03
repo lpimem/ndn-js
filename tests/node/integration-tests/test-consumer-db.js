@@ -21,7 +21,7 @@
  */
 
 var assert = require("assert");
-var fs = require("fs");
+var fs = require("react-native-fs");
 var Blob = require('../../..').Blob;
 var Name = require('../../..').Name;
 var RsaKeyParams = require('../../..').RsaKeyParams;

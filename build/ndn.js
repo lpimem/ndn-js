@@ -12863,7 +12863,7 @@ DerNode.DerGeneralizedTime.prototype.toVal = function()
  */
 
 /** @ignore */
-var fs = require('fs');
+var fs = require("react-native-fs");
 
 /**
  * BoostInfoTree is provided for compatibility with the Boost INFO property list
@@ -20768,7 +20768,7 @@ var UseSubtleCrypto = require('../../use-subtle-crypto-node.js').UseSubtleCrypto
 var rsaKeygen = null;
 try {
   // This should be installed with: sudo npm install rsa-keygen
-  rsaKeygen = require('rsa-keygen');
+  // rsaKeygen = require('rsa-keygen');
 }
 catch (e) {}
 
@@ -23322,8 +23322,8 @@ CertificateCache.prototype.reset = function()
  */
 
 /** @ignore */
-var fs = require('fs'); /** @ignore */
-var path = require('path'); /** @ignore */
+var fs = require("react-native-fs"); /** @ignore */
+var path = require('react-native-browser-builtins').path; /** @ignore */
 var Name = require('../../name.js').Name; /** @ignore */
 var Data = require('../../data.js').Data; /** @ignore */
 var Interest = require('../../interest.js').Interest; /** @ignore */
@@ -29841,7 +29841,7 @@ Encryptor.encryptAsymmetricPromise_ = function
 // "Rsa" is very short and not all the Common Client Libraries have namespaces.)
 
 /** @ignore */
-var constants = require('constants'); /** @ignore */
+var constants = require('react-native-browser-builtins').constants; /** @ignore */
 var Crypto = require('../../crypto.js'); /** @ignore */
 var Blob = require('../../util/blob.js').Blob; /** @ignore */
 var DecryptKey = require('../decrypt-key.js').DecryptKey; /** @ignore */
@@ -29855,7 +29855,7 @@ var SyncPromise = require('../../util/sync-promise.js').SyncPromise; /** @ignore
 var rsaKeygen = null;
 try {
   // This should be installed with: sudo npm install rsa-keygen
-  rsaKeygen = require('rsa-keygen');
+  // rsaKeygen = require('rsa-keygen');
 }
 catch (e) {}
 
@@ -36276,7 +36276,7 @@ var LpPacket = require('./lp/lp-packet.js').LpPacket; /** @ignore */
 var InterestFilterTable = require('./impl/interest-filter-table.js').InterestFilterTable; /** @ignore */
 var PendingInterestTable = require('./impl/pending-interest-table.js').PendingInterestTable; /** @ignore */
 var RegisteredPrefixTable = require('./impl/registered-prefix-table.js').RegisteredPrefixTable; /** @ignore */
-var fs = require('fs'); /** @ignore */
+var fs = require("react-native-fs"); /** @ignore */
 var LOG = require('./log.js').Log.LOG;
 
 /**

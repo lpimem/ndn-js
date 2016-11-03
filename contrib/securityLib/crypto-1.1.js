@@ -22,7 +22,7 @@
  */
 
 var CryptoJS = require('./sha256.js').CryptoJS
-  , intShim = require('jsbn');
+  , intShim = require('./jsbn.js');
 
 
 /** 
