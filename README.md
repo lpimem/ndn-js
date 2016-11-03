@@ -1,3 +1,22 @@
+React-Native-NDN-JS for IOS
+---------------------------
+
+#### Readme
+
+
+Install the following packages first: 
+
+1. [react-native-fs](https://github.com/johanneslumpe/react-native-fs)
+2. [react-native-tcp](https://www.npmjs.com/package/react-native-tcp)
+3. [buffer](https://www.npmjs.com/package/buffer)
+4. [react-native-browser-builtins](https://www.npmjs.com/package/react-native-browser-builtins)
+
+Include the following line in your index.ios.js
+
+```javascript
+global.Buffer = global.Buffer || require('buffer').Buffer;
+```
+
 
 NDN-JS:  A javascript client library for Named Data Networking
 --------------------------------------------------------------
